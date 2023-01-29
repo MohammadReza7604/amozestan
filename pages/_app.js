@@ -10,6 +10,7 @@ import "../styles/vendor/swiper-bundle.min.css";
 import "../styles/vendor/tipped.min.css";
 import "../styles/app.css";
 import 'animate.css';
+import 'swiper/css';
 
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />

@@ -28,55 +28,89 @@
 //     </ReactCardFlip>
 //   );
 // }
-
-import { useEffect, useState } from "react";
 import Image from "next/image";
+import { useEffect, useState } from "react";
 import ReactCardFlip from "react-card-flip";
 
-function FlashCard({ id, count, questionText, questionTitle, showCard }) {
+function FlashCard({
+  id,
+  count,
+  questionText,
+  questionTitle,
+  cardState,
+  setCardState,
+  showBackFunctionRefSetter,
+}) {
   const [isFlipped, setIsFlipped] = useState(false);
-  const [cardBackState, setCardBackState] = useState();
 
-  function handleClick() {
-    setIsFlipped((prevState) => !prevState);
-  }
+  useEffect(() => {
+    console.log("is flipped of ", id, " ", isFlipped);
+  }, [isFlipped]);
 
-  function showBack(mode) {
-    setCardBackState(mode);
-    handleClick();
-  }
+  const showBack = (mode) => {
+    console.log(isFlipped);
+    if (mode === "answer") {
+      if (isFlipped) {
+        console.log("From 'inc-answer' Going To 'answer'");
+        setIsFlipped(false);
+        // TODO:...
+      } else {
+        console.log("From '' Going To 'answer'");
+        setCardState("answer");
+        setIsFlipped(true);
+      }
+    } else {
+      if (isFlipped) {
+        console.log("From 'answer' Going To 'inc-answer'");
+        setIsFlipped(false);
+        // TODO:...
+      } else {
+        console.log("From '' Going To 'inc-answer'");
+        setCardState("inc-answer");
+        setIsFlipped(true);
+      }
+    }
+  };
 
   const [touchStartY, setTouchStartY] = useState(null);
+  const [touchStartX, setTouchStartX] = useState(null);
 
   function detectTouchDirection(event) {
-    console.log("triggering touch event...");
     if (touchStartY) {
-      if (event.pageY === touchStartY) {
-      } else {
-        const diff = event.pageY - touchStartY;
-        if (diff > 0) {
-          // touch to down
-          if (isFlipped) {
-            if (cardBackState === "inc-answer") setIsFlipped(false);
-          } else {
-            setCardBackState("answer");
-            setIsFlipped(true);
-          }
+      if (Math.abs(event.pageX - touchStartX) < 40) {
+        if (event.pageY === touchStartY) {
         } else {
-          // touch to up
-          if (isFlipped) {
-            if (cardBackState === "answer") setIsFlipped(false);
+          const diff = event.pageY - touchStartY;
+          if (diff > 0) {
+            // touch to down
+            if (isFlipped) {
+              if (cardState === "inc-answer") setIsFlipped(false);
+            } else {
+              setCardState("answer");
+              setIsFlipped(true);
+            }
           } else {
-            setCardBackState("inc-answer");
-            setIsFlipped(true);
+            // touch to up
+            if (isFlipped) {
+              if (cardState === "answer") setIsFlipped(false);
+            } else {
+              setCardState("inc-answer");
+              setIsFlipped(true);
+            }
           }
         }
+        setTouchStartY(null);
+        setTouchStartX(null);
       }
-      setTouchStartY(null);
     } else {
-      setTouchStartY(event.pageY);
+      setTouchStartY(event.clientY);
+      setTouchStartX(event.clientX);
     }
   }
+
+  useEffect(() => {
+    showBackFunctionRefSetter(showBack);
+  }, []);
 
   return (
     <div
@@ -104,7 +138,9 @@ function FlashCard({ id, count, questionText, questionTitle, showCard }) {
             height="50"
             viewBox="0 0 50 50"
             fill="none"
-            xmlns="http://www.w3.org/2000/svg"
+            xmlns="
+http://www.w3.org/2000/svg
+"
           >
             <circle cx="25" cy="25" r="25" fill="#2B3544" />
             <path
@@ -121,7 +157,7 @@ function FlashCard({ id, count, questionText, questionTitle, showCard }) {
           <p>{questionText}</p>
         </div>
         <div className="flashCard">
-          {cardBackState === "answer" ? <p>جواب</p> : <p>جواب نادرست</p>}
+          {cardState === "answer" ? <p>جواب</p> : <p>جواب نادرست</p>}
         </div>
       </ReactCardFlip>
     </div>
@@ -129,7 +165,7 @@ function FlashCard({ id, count, questionText, questionTitle, showCard }) {
 }
 export default FlashCard;
 
-// // TODO: move components states to the following state :|
+// // TODO: move components states to the following state 😐
 // const [componentState, setComponentState] = useState("initial"); //  showAnswer | initial | showIncorrectAnswer
 // const [transitionState, setTransitionState] = useState(); //  flippingUp | flippingDown
 
