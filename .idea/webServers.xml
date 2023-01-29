@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="c3c8865d-6bed-496c-a12f-a07f49ff0ab9" name="services.irn2.chabokan.net" url="http://services.irn2.chabokan.net">
+        <fileTransfer rootFolder="/app" host="services.irn2.chabokan.net" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

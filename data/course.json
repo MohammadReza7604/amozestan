@@ -1,0 +1,349 @@
+{
+    "courses": [
+        {
+            "id": 1,
+            "title": "شروع SEO برای کسب و کار خانگی",
+            "image": "course-01.jpg",
+            "alt": "Course Thumb",
+            "duration": "4 هفته",
+            "level": "پیشرفته",
+            "ratingAvarage": "4.9",
+            "ratingTotal": "8",
+            "currentPrice": "49.00",
+            "lessons": "18",
+            "students": "43",
+            "category": "مدیریت",
+            "type": "وبسایت",
+            "excerpt": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ",
+            "excerpt2": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ",
+            "excerpt3": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ",
+            "instructor": "آیزاک نیوتون",
+            "language": "انگلیسی",
+            "certificate": true,
+            "features": [
+                "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ"
+            ]
+        },
+        {
+            "id": 2,
+            "title": "شروع SEO برای کسب و کار خانگی",
+            "image": "course-01.jpg",
+            "alt": "Course Thumb",
+            "duration": "4 هفته",
+            "level": "پیشرفته",
+            "ratingAvarage": "4.9",
+            "ratingTotal": "8",
+            "currentPrice": "49.00",
+            "lessons": "18",
+            "students": "43",
+            "category": "مدیریت",
+            "type": "وبسایت",
+            "excerpt": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ",
+            "excerpt2": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ",
+            "excerpt3": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ",
+            "instructor": "آیزاک نیوتون",
+            "language": "انگلیسی",
+            "certificate": true,
+            "features": [
+                "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ"
+            ]
+        },
+        {
+            "id": 3,
+            "title": "شروع SEO برای کسب و کار خانگی",
+            "image": "course-01.jpg",
+            "alt": "Course Thumb",
+            "duration": "4 هفته",
+            "level": "پیشرفته",
+            "ratingAvarage": "4.9",
+            "ratingTotal": "8",
+            "currentPrice": "49.00",
+            "lessons": "18",
+            "students": "43",
+            "category": "مدیریت",
+            "type": "وبسایت",
+            "excerpt": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ",
+            "excerpt2": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ",
+            "excerpt3": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ",
+            "instructor": "آیزاک نیوتون",
+            "language": "انگلیسی",
+            "certificate": true,
+            "features": [
+                "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ"
+            ]
+        },
+        {
+            "id": 4,
+            "title": "شروع SEO برای کسب و کار خانگی",
+            "image": "course-01.jpg",
+            "alt": "Course Thumb",
+            "duration": "4 هفته",
+            "level": "پیشرفته",
+            "ratingAvarage": "4.9",
+            "ratingTotal": "8",
+            "currentPrice": "49.00",
+            "lessons": "18",
+            "students": "43",
+            "category": "مدیریت",
+            "type": "وبسایت",
+            "excerpt": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ",
+            "excerpt2": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ",
+            "excerpt3": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ",
+            "instructor": "آیزاک نیوتون",
+            "language": "انگلیسی",
+            "certificate": true,
+            "features": [
+                "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ"
+            ]
+        },
+        {
+            "id": 5,
+            "title": "شروع SEO برای کسب و کار خانگی",
+            "image": "course-01.jpg",
+            "alt": "Course Thumb",
+            "duration": "4 هفته",
+            "level": "پیشرفته",
+            "ratingAvarage": "4.9",
+            "ratingTotal": "8",
+            "currentPrice": "49.00",
+            "lessons": "18",
+            "students": "43",
+            "category": "مدیریت",
+            "type": "وبسایت",
+            "excerpt": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ",
+            "excerpt2": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ",
+            "excerpt3": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ",
+            "instructor": "آیزاک نیوتون",
+            "language": "انگلیسی",
+            "certificate": true,
+            "features": [
+                "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ"
+            ]
+        },
+        {
+            "id": 6,
+            "title": "شروع SEO برای کسب و کار خانگی",
+            "image": "course-01.jpg",
+            "alt": "Course Thumb",
+            "duration": "4 هفته",
+            "level": "پیشرفته",
+            "ratingAvarage": "4.9",
+            "ratingTotal": "8",
+            "currentPrice": "49.00",
+            "lessons": "18",
+            "students": "43",
+            "category": "مدیریت",
+            "type": "وبسایت",
+            "excerpt": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ",
+            "excerpt2": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ",
+            "excerpt3": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ",
+            "instructor": "آیزاک نیوتون",
+            "language": "انگلیسی",
+            "certificate": true,
+            "features": [
+                "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ"
+            ]
+        },
+        {
+            "id": 7,
+            "title": "شروع SEO برای کسب و کار خانگی",
+            "image": "course-01.jpg",
+            "alt": "Course Thumb",
+            "duration": "4 هفته",
+            "level": "پیشرفته",
+            "ratingAvarage": "4.9",
+            "ratingTotal": "8",
+            "currentPrice": "49.00",
+            "lessons": "18",
+            "students": "43",
+            "category": "مدیریت",
+            "type": "وبسایت",
+            "excerpt": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ",
+            "excerpt2": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ",
+            "excerpt3": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ",
+            "instructor": "آیزاک نیوتون",
+            "language": "انگلیسی",
+            "certificate": true,
+            "features": [
+                "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ"
+            ]
+        }
+    ],
+    "universityCourses": [
+        {
+            "id": 1,
+            "title": "Public Administration",
+            "image": "course-01.jpg",
+            "alt": "Course Thumb",
+            "ratingAvarage": "4.9",
+            "ratingTotal": "8",
+            "currentPrice": "49.00",
+            "category": "Management",
+            "type": "Onsite Only",
+            "excerpt": "Lorem ipsum dolor sit amet consectur elit sed eiusmod ex tempor incididunt labore dolore magna."
+        },
+        {
+            "id": 2,
+            "title": "Major in Economics",
+            "image": "course-02.jpg",
+            "alt": "Course Thumb",
+            "ratingAvarage": "5.0",
+            "ratingTotal": "9",
+            "currentPrice": "39.00",
+            "category": "Economics",
+            "type": "Online + Onsite",
+            "excerpt": "Lorem ipsum dolor sit amet consectur elit sed eiusmod ex tempor incididunt labore dolore magna."
+        },
+        {
+            "id": 3,
+            "title": "Business Studies",
+            "image": "course-03.jpg",
+            "alt": "Course Thumb",
+            "ratingAvarage": "4.8",
+            "ratingTotal": "5",
+            "currentPrice": "59.00",
+            "category": "Business",
+            "type": "Online Only",
+            "excerpt": "Lorem ipsum dolor sit amet consectur elit sed eiusmod ex tempor incididunt labore dolore magna."
+        }
+    ],
+    "kitchenCourses": [
+        {
+            "id": 1,
+            "title": "Healthy Sushi Roll - Japanese Popular Cooking Class",
+            "image": "course-01.jpg",
+            "alt": "Course Thumb",
+            "duration": "35 hrs",
+            "level": "Advanced",
+            "ratingAvarage": "4.9",
+            "currentPrice": "30",
+            "lessons": "18",
+            "students": "43",
+            "category": "Cooking",
+            "excerpt3": "Lorem ipsum dolor sit amet consectur elit sed eiusmod ex tempor.",
+            "features": [
+                "Professional Japanese cooking from beginners to experts",
+                "Will be able to cook authentic Italian recipes in their own kitchen",
+                "Understand the HOW of cooking, before thinking of the WHAT to cook."
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Nutrition Kitchen - Basics of Cooking for Busy People",
+            "image": "course-02.jpg",
+            "alt": "Course Thumb",
+            "duration": "29 hrs",
+            "level": "Beginner",
+            "ratingAvarage": "5.0",
+            "currentPrice": "40",
+            "lessons": "59",
+            "students": "67",
+            "category": "Cooking",
+            "excerpt3": "Lorem ipsum dolor sit amet consectur elit sed eiusmod ex tempor.",
+            "features": [
+                "Prepare a huge variety of simple, delicious, healthy recipes.",
+                "Professional Indian cooking from beginners to experts",
+                "Serve delicious and healthy meals for your loved ones."
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Vegan Thai Cooking Classes Popular Vegan Recipes",
+            "image": "course-03.jpg",
+            "alt": "Course Thumb",
+            "duration": "14 hrs",
+            "level": "Intermediate",
+            "ratingAvarage": "5.0",
+            "currentPrice": "50",
+            "lessons": "24",
+            "students": "80",
+            "category": "Cooking",
+            "excerpt3": "Lorem ipsum dolor sit amet consectur elit sed eiusmod ex tempor.",
+            "features": [
+                "Cook much loved recipes like ravioli, pizza and pesto from scratch",
+                "Cook better than restaurant Thai food at home",
+                "Keep your food safe from harmful bacteria and disease."
+            ]
+        }
+    ],
+    "kindergartenCourses": [
+        {
+            "id": 1,
+            "colorClass": "bg-color-extra02",
+            "title": "The Ultimate Drawing Course - Beginner to Advanced",
+            "image": "course-01.jpg",
+            "alt": "Course Thumb",
+            "currentPrice": "30",
+            "lessons": "18",
+            "students": "43",
+            "category": "Drawing",
+            "excerpt": "Lorem ipsum dolor sit amet consectur elit sed eiusmod ex tempor incididunt labore dolore magna."
+        },
+        {
+            "id": 2,
+            "colorClass": "bg-color-secondary",
+            "title": "Powerful Calming Techniques For Kids and Teens",
+            "image": "course-02.jpg",
+            "alt": "Course Thumb",
+            "currentPrice": "40",
+            "lessons": "59",
+            "students": "67",
+            "category": "Techniques",
+            "excerpt": "Lorem ipsum dolor sit amet consectur elit sed eiusmod ex tempor incididunt labore dolore magna."
+        },
+        {
+            "id": 3,
+            "colorClass": "bg-color-primary",
+            "title": "Parenting Skills to Raise Responsible Children",
+            "image": "course-03.jpg",
+            "alt": "Course Thumb",
+            "currentPrice": "50",
+            "lessons": "24",
+            "students": "80",
+            "category": "Parenting",
+            "excerpt": "Lorem ipsum dolor sit amet consectur elit sed eiusmod ex tempor incididunt labore dolore magna."
+        }
+    ],
+    "yogaCourses": [
+        {
+            "id": 1,
+            "title": "Yoga for Back Pain Relief",
+            "image": "course-01.jpg",
+            "alt": "Course Thumb",
+            "currentPrice": "30",
+            "lessons": "15",
+            "students": "31",
+            "category": "Meditation"
+        },
+        {
+            "id": 2,
+            "title": "Super Brain YOGA",
+            "image": "course-02.jpg",
+            "alt": "Course Thumb",
+            "currentPrice": "40",
+            "lessons": "18",
+            "students": "43",
+            "category": "Power Yoga"
+        },
+        {
+            "id": 3,
+            "title": "Chair Yoga for Seniors",
+            "image": "course-03.jpg",
+            "alt": "Course Thumb",
+            "currentPrice": "50",
+            "lessons": "35",
+            "students": "16",
+            "category": "Pranayama"
+        },
+        {
+            "id": 4,
+            "title": "Online Yoga for Beginners",
+            "image": "course-04.jpg",
+            "alt": "Course Thumb",
+            "currentPrice": "60",
+            "lessons": "22",
+            "students": "56",
+            "category": "Power Yoga"
+        }
+    ]
+}
